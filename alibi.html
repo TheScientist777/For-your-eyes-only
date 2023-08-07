@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alibi Generator</title>
+  <link rel="stylesheet" href="ailbi_style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Alibi Generator</h1>
+      <button id="generator-button" onclick="generateAlibi()">Generate Alibi</button>
+    </header>
+    <div class="alibi-box" id="alibi-box">
+      <img src="path/to/your/alibi_image.jpg" alt="Alibi Image">
+      <div class="alibi-details">
+        <h2>Fake Names</h2>
+        <p>Brief description of the alibi goes here.</p>
+        <button class="accept-button" onclick="window.location.href='gadget_shop.html'">Accept</button>
+        <button class="refresh-button" onclick="refreshAlibi()">Refresh Alibi</button>
+        <p class="success-rate">Success Rate: <span id="success-rate">0%</span></p>
+        <div class="comments-section" id="comments-section">
+          <!-- Comments will be dynamically added here -->
+        </div>
+      </div>
+    </div>
+    <p class="footer">© 2023 Alibi Generator. All rights reserved.</p>
+  </div>
+  <script src="alibi_script.js"></script>
+</body>
+</html>

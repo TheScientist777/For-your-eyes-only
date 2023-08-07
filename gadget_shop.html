@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gadget Shop</title>
+  <link rel="stylesheet" href="shop_style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Gadget Shop</h1>
+      <div class="cart">
+        <img src="path/to/cart_icon.png" alt="Cart Icon">
+        <span id="cart-count">0</span>
+      </div>
+    </header>
+
+    <div class="item-container">
+      <div class="item">
+        <h2>Problem 1</h2>
+        <img src="path/to/item1.png" alt="Item 1">
+        <p class="price">$99.99</p>
+        <button class="add-to-cart" onclick="addToCart(1)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <h2>Problem 2</h2>
+        <img src="path/to/item2.png" alt="Item 2">
+        <p class="price">$149.99</p>
+        <button class="add-to-cart" onclick="addToCart(2)">Add to Cart</button>
+      </div>
+
+      <!-- Add more items as needed -->
+
+    </div>
+
+    <button class="checkout-button" onclick="proceedToCheckout()">Proceed to Checkout</button>
+
+    <p class="footer">© 2023 Gadget Shop. All rights reserved.</p>
+  </div>
+
+  <script src="shop_script.js"></script>
+</body>
+</html>
