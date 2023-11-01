@@ -1,6 +1,8 @@
 /* Styles for the Alibi Generator page */
 
 body {
+  background-color: #1d1d1d;
+  color: #d1d1d1;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -27,8 +29,8 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #545454;
+    color: #d1d1d1;
   }
   
   .alibi-box {
@@ -57,8 +59,8 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #545454;
+    color: #d1d1d1;
   }
   
   .success-rate {
