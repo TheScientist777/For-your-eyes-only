@@ -1,47 +1,47 @@
 body {
   background-color: #1d1d1d;
   color: #d1d1d1;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .header {
-    background-color: #f0f0f0;
-    padding: 10px;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  .background-image {
-    background-image: url('path/to/your/background-image.jpg'); /* Replace with your actual image path */
-    height: 400px;
-    background-size: cover;
-  }
-  
-  .link-button,
-  .popup-button,
-  .note-button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    background-color: #545454;
-    color: #d1d1d1;
-  }
-  
-  .footer {
-    margin-top: 50px;
-    font-size: 12px;
-    color: #777;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+
+body {
+  background-image: url('/Index background.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+}
+
+.link-button,
+.popup-button,
+.note-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #545454;
+  color: #d1d1d1;
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 12px;
+  color: #777;
+}
