@@ -4,11 +4,19 @@ function showPopup() {
   // Set the background image using JavaScript
   document.body.style.backgroundImage = "url('Knocking on door.jpg')";
 
-  // Wait for 2 seconds and reset the background image
+  // Hide the buttons
+  document.querySelectorAll(".link-button, .popup-button, .note-button").forEach(button => {
+    button.style.display = "none";
+  });
+
+  // Wait for 10 seconds, reset the background image, and show the buttons
   setTimeout(() => {
-    document.body.style.backgroundImage = "url('Index background.jpg')";
+    document.body.style.backgroundImage = "url('/Index background.jpg')";
+    document.querySelectorAll(".link-button, .popup-button, .note-button").forEach(button => {
+      button.style.display = "block";
+    });
     window.location.href = "alibi.html";
-  }, 2000); // 2,000 milliseconds = 2 seconds
+  }, 2000); // 10,000 milliseconds = 10 seconds
 }
 
 function showNote() {
