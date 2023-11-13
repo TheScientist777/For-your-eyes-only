@@ -20,5 +20,5 @@ function showPopup() {
 }
 
 function showNote() {
-  alert("This is a note to read. Welcome to my website!");
+  alert("You'll find what you're looking for here. But rememeber the code: grrfurjiclestan. Less you meet a gruesome fate.");
 }

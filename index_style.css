@@ -39,6 +39,12 @@ body {
   background-color: #545454;
   color: #d1d1d1;
 }
+.note-popup {
+  background-color: rgb(237, 165, 47), 255, 255); /* White background to simulate paper */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
 
 .footer {
   margin-top: 50px;
