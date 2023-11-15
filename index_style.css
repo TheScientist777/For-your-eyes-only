@@ -4,6 +4,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+    background-image: url('/Index background.jpg'); /* Replace with your actual image path */
+    background-size: cover;
 }
 
 .container {
@@ -22,10 +24,7 @@ h1 {
 
 
 
-body {
-  background-image: url('/Index background.jpg'); /* Replace with your actual image path */
-  background-size: cover;
-}
+
 
 .link-button,
 .popup-button,

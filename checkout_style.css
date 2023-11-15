@@ -3,10 +3,20 @@
 body {
   background-color: #1d1d1d;
   color: #d1d1d1;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  /* Set the background image for the body */
+  background-image: url('Password.jpg');
+  background-size: cover; /* Adjust as needed */
+}
+
+body.exit-background {
+  background-image: url('Exit background.jpg') !important;
+}
+
+  
+  
   
   .container {
     text-align: center;

@@ -18,6 +18,10 @@ const bankCards = [
     const passwordInput = document.getElementById("password-input").value;
     // Replace 'your_password' with the correct password for validation
     if (passwordInput === 'password') {
+      // Change the background image
+      document.body.classList.add("exit-background");
+  
+      // Hide password box and display other elements
       document.getElementById("password-box").style.display = "none";
       document.getElementById("bank-card-box").style.display = "block";
       document.getElementById("shipping-address-box").style.display = "block";
@@ -31,6 +35,8 @@ const bankCards = [
       alert("Incorrect password. Please try again.");
     }
   }
+  
+  
   
   function generateBankCardOptions() {
     const bankCardSelect = document.getElementById("bank-card-select");
