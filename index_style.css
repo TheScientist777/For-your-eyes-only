@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-    background-image: url('./Index background.jpg'); /* Replace with your actual image path */
+    background-image: url('Index background.jpg'); /* Replace with your actual image path */
     background-size: cover;
 }
 
@@ -39,7 +39,7 @@ h1 {
   color: #d1d1d1;
 }
 .note-popup {
-  background-color: rgb(237, 165, 47), 255, 255); /* White background to simulate paper */
+  background-color: rgb(237, 165, 47); /* White background to simulate paper */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
